@@ -6,7 +6,7 @@ import { remarkReadingTime } from './src/utils/readTime.ts'
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://vallamost.github.io/', // Write here your website url
+	site: 'https://vallamost.github.io/blogtest', // Write here your website url
 	base: '/blogtest',
 	outDir: './docs',
 
