@@ -1,0 +1,1 @@
+import{a as t}from"./hoisted.a4b27e2c.js";import"./hoisted.2a986d19.js";const o=localStorage.getItem("animations")==="true";o&&t(".title",{y:[80,0],opacity:[0,1]},{duration:2.5,opacity:{duration:3},offset:[0,.55,.75]});
