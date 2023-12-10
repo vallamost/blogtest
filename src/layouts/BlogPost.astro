@@ -78,7 +78,7 @@ const articleDate = pubDate.toISOString()
 			observer: IntersectionObserver
 		) {
 			entries.forEach((entry) => {
-				const index = document.querySelector(`aside a[href="${import.meta.env.BASE_URL}#${entry.target.id}"]`)
+				const index = document.querySelector(`aside a[href="#${entry.target.id}"]`)
 
 				if (entry.isIntersecting) {
 					index?.classList.remove('bg-slate-200', 'dark:bg-slate-800') // remove bg
